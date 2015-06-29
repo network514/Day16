@@ -41,7 +41,6 @@ public class J07_Event02 {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
 				System.out.println("버튼2번 호출됨");
 				lb.setText("버튼 2222번의 기능 작동");
 			}

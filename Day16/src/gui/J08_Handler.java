@@ -5,12 +5,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class J08_Handler implements ActionListener{
-
+	
+	Frame fr;
+	Button bt1, bt2, bt3, bt4;
+	Label lb;
+	
 	public J08_Handler() {
-
-		Frame fr;
-		Button bt1, bt2, bt3, bt4;
-		Label lb;
 		
 		fr = new Frame();
 		fr.setBounds(300, 400, 500, 500);
@@ -39,8 +39,7 @@ public class J08_Handler implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
-		
+		lb.setText("버튼 111번이 작동함");
 	}
 	
 }

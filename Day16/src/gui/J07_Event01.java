@@ -43,7 +43,7 @@ public class J07_Event01 {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
+				lb.setText("버튼 111번이 작동함");
 			}
 		});
 	}
